@@ -3,18 +3,6 @@
   "version": "0.9.3",
   "description": "Simple elegant toast notifications",
   "author": "Jason Lee <jason@zerodevx.com>",
-  "scripts": {
-    "dev": "vite dev",
-    "preview": "vite preview",
-    "check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
-    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch",
-    "format": "prettier --plugin-search-dir . --write .",
-    "lint": "prettier --plugin-search-dir . --check . && eslint . && npm run check",
-    "test": "playwright test",
-    "prepublishOnly": "echo 'Did you mean to publish `./package/`, instead of `./`?' && exit 1",
-    "build": "zx build.mjs",
-    "package": "zx build.mjs --packageOnly"
-  },
   "peerDependencies": {
     "svelte": "^3.57.0"
   },
@@ -46,6 +34,7 @@
     "vite": "^4.2.1"
   },
   "type": "module",
+  "svelte": "./index.js",
   "jsdelivr": "./dist/index.umd.js",
   "files": [
     "**/*"

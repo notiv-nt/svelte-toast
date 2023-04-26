@@ -182,5 +182,4 @@ onDestroy(() => {
 }
 ._toastBar::-moz-progress-bar {
   background: var(--toastProgressBackground, var(--toastBarBackground, rgba(33, 150, 243, 0.75)));
-}
-</style>
+}</style>

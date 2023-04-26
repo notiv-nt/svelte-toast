@@ -48,5 +48,4 @@ $: items = $toast.filter((i) => i.target === target)
   list-style-type: none;
   pointer-events: none;
   z-index: var(--toastContainerZIndex, 9999);
-}
-</style>
+}</style>
