@@ -3,9 +3,6 @@
   "version": "0.9.3",
   "description": "Simple elegant toast notifications",
   "author": "Jason Lee <jason@zerodevx.com>",
-  "peerDependencies": {
-    "svelte": "^3.57.0"
-  },
   "devDependencies": {
     "@fontsource/inter": "^4.5.15",
     "@playwright/test": "^1.32.1",
